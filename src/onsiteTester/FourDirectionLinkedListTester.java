@@ -27,7 +27,7 @@ visualized structure
 public class FourDirectionLinkedListTester {
 
 	@Test
-	public void test() {
+	public void test1() {
 		FourDirectionLinkedList fdll=new FourDirectionLinkedList();
 		Node n1=fdll.new Node(1);
 		Node n2=fdll.new Node(2);
@@ -78,6 +78,6 @@ public class FourDirectionLinkedListTester {
 			System.out.println(curr.val);
 			curr=curr.right;
 		}
+		System.out.println();
 	}
-
 }

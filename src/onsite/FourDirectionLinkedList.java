@@ -5,6 +5,8 @@
  */
 package onsite;
 
+import java.util.HashSet;
+
 public class FourDirectionLinkedList {
 	public class Node{
 		public Node up;
